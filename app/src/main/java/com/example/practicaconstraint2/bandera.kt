@@ -21,7 +21,6 @@ fun BanderaFrancia(modifier: Modifier = Modifier) {
     ConstraintLayout(modifier = modifier) {
         val (azul, blanco, rojo) = createRefs()
 
-        // Franja azul: primer tercio
         Box(
             modifier = Modifier
                 .background(AzulFrancia)
@@ -34,7 +33,6 @@ fun BanderaFrancia(modifier: Modifier = Modifier) {
                 }
         )
 
-        // Franja blanca: segundo tercio
         Box(
             modifier = Modifier
                 .background(Color.White)
@@ -47,7 +45,6 @@ fun BanderaFrancia(modifier: Modifier = Modifier) {
                 }
         )
 
-        // Franja roja: espacio restante
         Box(
             modifier = Modifier
                 .background(RojoFrancia)
